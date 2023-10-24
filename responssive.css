@@ -1,0 +1,35 @@
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 1023px) {}
+
+
+@media only screen and (max-width: 767px) {
+   
+    .mx-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+
+@media only screen and (max-width: 479px) {
+   
+    .carousel-item{
+        height: 200px;
+    }
+    .carousel-inner{
+        height: 300px;
+    }
+    img{
+        height: 300px;
+    }
+    .mx-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
